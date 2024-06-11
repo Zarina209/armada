@@ -1,0 +1,113 @@
+.header {
+  &__top {
+    background: #65256f;
+    padding: 10px;
+  }
+  &__close {
+    display: none;
+    @media screen and (max-width: 480px) {
+      display: block;
+    }
+  }
+  &__text {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.7px;
+    text-align: left;
+    color: #ffb700;
+  }
+  &__text2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.24px;
+    text-align: left;
+    color: #ffffff;
+    a {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 18.83px;
+      text-align: left;
+      color: #fbc70e;
+    }
+    @media screen and (max-width: 480px) {
+      display: none;
+    }
+  }
+  &__df {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__bottom {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    align-items: center;
+  }
+
+  &__link {
+    width: 59px;
+    height: 19.38px;
+    top: -422.69px;
+    left: 1907px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  &__btn {
+    background-color: #65256f;
+    border-radius: 10px;
+    padding: 12px 25px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: left;
+    color: #ffffff !important;
+  }
+  &__menu {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+    a {
+      color: #2a2828;
+      text-decoration: none;
+      @media screen and (max-width: 480px) {
+        color: #2a2828;
+      }
+    }
+  }
+
+  &__link {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: left;
+    color: #2a2828;
+  }
+  &__menu-burger {
+    display: none;
+
+    @media screen and (max-width: 480px) {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: absolute;
+      padding-top: 50px;
+      padding-left: 50px;
+      top: -54px;
+      left: -40px;
+      height: 100vh;
+      width: 90%;
+      background-color: #fff;
+    }
+  }
+  &__btn-burger {
+    display: none;
+    @media screen and (max-width: 480px) {
+      display: block;
+    }
+  }
+}

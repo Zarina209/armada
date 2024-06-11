@@ -1,0 +1,54 @@
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+.projects-item {
+  width: 270px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0px 6px 32px 0px #0000000d;
+}
+.projects-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  line-height: 20.88px;
+  text-align: center;
+  color: #000000;
+}
+.projects-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.56px;
+  text-align: center;
+  margin-top: 10px;
+  color: #5e5e5e;
+  margin-bottom: 40px;
+}
+.price-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.24px;
+  text-align: left;
+  color: #753ed6;
+}
+.work-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0, 8px;
+}
+.vh {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.19px;
+  text-align: left;
+  background-color: #65256f;
+  padding: 20px;
+}
+
+.projects-inner {
+  margin-top: 20px;
+}

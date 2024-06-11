@@ -1,0 +1,56 @@
+.carousel-list {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 30px;
+}
+
+.carousel-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.25px;
+  color: #fff;
+  border: 8px solid #ffb700;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.carousel-wrapper {
+  width: 150px;
+}
+.carousel-text {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: center;
+  color: #fff;
+}
+
+.history {
+  background-image: url("../../img/history.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  &__bg {
+    background-color: #000;
+    opacity: 0.5;
+    padding-top: 150px;
+    height: 450px;
+  }
+}
+.carousel-control-prev,
+.carousel-control-next {
+  top: 50px;
+}
+.carousel-indicators {
+  bottom: -60px;
+}
